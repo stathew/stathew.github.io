@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Matthew Staton</title>
-</head>
-
-<body>
-    <h1>Matthew Staton</h1>
-    <p>Update coming soon.</p>
-</body>
-
-</html>
+---
+layout: default_layout
+---
+<div class="profile-container">
+    <div class="card">
+        <img class="profile-image my-2 mx-auto" src="assets/imgs/profile-circle.png">
+        <div class="profile-text">
+            <h1 class="landing-title">{{ site.landing_title }}</h1>
+            <hr class="hr-small"/>
+            <p class="profile-tagline">{{ site.landing_tagline }}</p>
+        </div>
+    </div>
+</div>
+<p>{{ site.update_text }}</p>
