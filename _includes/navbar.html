@@ -1,0 +1,14 @@
+<div class="navbar-container">
+    <div class="profile-image-container">
+        <img class="avatar-image my-2 mx-auto" src="/assets/imgs/profile-circle.png">
+        <h2 class="profile-header">Matthew Staton</h2>
+    </div>
+    <ul class="navbar-nav">
+        {% for navitem in site.data.navigation %}
+        {% assign navdata = navitem[1] %}
+        <li class="nav-item {% if page.url == navdata.link %}active{% endif %}">
+            <a class="nav-link" href="{{ navdata.link }}">{{ navdata.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

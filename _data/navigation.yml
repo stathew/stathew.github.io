@@ -4,11 +4,11 @@ home:
   description: Homepage of the portfolio.
 projects:
   name: Projects
-  link: /projects.html
+  link: /pages/projects.html
   description: Showcase of projects being worked on.
 about:
   name: About
-  link: /about.html
+  link: /pages/about.html
   description: A bit about myself, my history and the skills I have.
 
 

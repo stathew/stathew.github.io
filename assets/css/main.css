@@ -1,13 +1,68 @@
 html {
-  background: url("../imgs/banner.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  height: 100%;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.navbar-container {
+  /* change this lol */
+  background-color: #353b44;
+  top: 0;
+  left: 0;
+  width: 300px;
+  position: fixed;
+  height: 100vh;
+}
+
+.profile-image-container {
+  background-color: #4b5562;
+  padding:2em 0.5em;
+  text-align:center;
+}
+
+.avatar-image {
+  max-width: 125px;
+}
+
+h2.profile-header {
+  color: #ced4da;
+  font-weight: bold;
+}
+
+li.nav-item {
+  cursor: pointer;
+  color: #ced4da;
+}
+
+a.nav-link {
+  padding: 10px !important;
+  color: #ced4da;
+}
+
+a.nav-link:hover {
+  padding: 10px !important;
+  color: #000000;
+}
+
+li.nav-item:hover {
+  background-color: #ced4da;
+  color: #000000;
+}
+
+.page-content-container {
+  background-color: #a8b4c4;
+  margin-left: 300px;
+  height: 100vh;
+}
+
+.page-content {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
 }
 
 .profile-image {
